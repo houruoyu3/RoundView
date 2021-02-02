@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl_content">
+
+    <ImageView
+        android:id="@+id/iv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hemei_img_float" />
+
+    <View
+        android:id="@+id/round_msg_left"
+        android:visibility="gone"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:layout_margin="2dp"
+        android:layout_alignRight="@+id/iv_content"
+        android:background="@drawable/draw_msg_view"/>
+
+    <View
+        android:id="@+id/round_msg_right"
+        android:visibility="gone"
+        android:layout_width="6dp"
+        android:layout_height="6dp"
+        android:layout_margin="2dp"
+        android:background="@drawable/draw_msg_view"/>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/showbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示悬浮窗"
+        />
+
+    <Button
+        android:id="@+id/hidebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐藏悬浮窗"
+        />
+    <Button
+        android:id="@+id/closebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="销毁悬浮窗"
+        />
+
+    <Button
+        android:id="@+id/showMsgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="显示红点"
+        />
+
+
+    <Button
+        android:id="@+id/hideMsgbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="隐藏红点"
+        />
+
+    <Button
+        android:id="@+id/exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭App"
+        />
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hemei_img_float" />
+
+        <View
+            android:id="@+id/round_msg"
+            android:visibility="gone"
+            android:layout_width="6dp"
+            android:layout_height="6dp"
+            android:layout_margin="2dp"
+            android:layout_alignRight="@+id/iv_content"
+            android:background="@drawable/draw_msg_view"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="50.0dip"
+        android:layout_gravity="center"
+        android:background="@drawable/point_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/iv_gift"
+            style="@style/Sj_MyButton"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:background="@drawable/point_gift_style"
+            android:visibility="gone"/>
+
+        <RelativeLayout
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip" >
+
+            <Button
+                android:id="@+id/iv_account"
+                style="@style/Sj_MyButton"
+                android:layout_width="45.0dip"
+                android:layout_height="45.0dip"
+                android:background="@drawable/point_ac_style" />
+
+            <TextView
+                android:id="@+id/tv_msg"
+                android:layout_width="7dip"
+                android:layout_height="7dip"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:background="@drawable/point_background_enable"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/iv_kefu"
+            style="@style/Sj_MyButton"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:background="@drawable/point_ser_style" />
+
+        <!--
+             <Button
+            android:id="@+id/iv_msg"
+            style="@style/Sj_MyButton"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:background="@drawable/point_jin_style" />
+        -->
+
+
+        <Button
+            android:id="@+id/iv_hide"
+            style="@style/Sj_MyButton"
+            android:layout_width="45.0dip"
+            android:layout_height="45.0dip"
+            android:background="@drawable/point_hide_style"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
